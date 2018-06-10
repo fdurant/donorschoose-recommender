@@ -7,8 +7,10 @@ services:
       context: .
       dockerfile: anaconda3/Dockerfile
     container_name: donorschoose_anaconda3
+    env_file:
+    - .env
     ports:
       - "8888:8888"
     volumes:
-      - "/Users/frederik/work/kaggle/donorschoose-recommender/notebooks:/notebooks"
-      - "/Users/frederik/work/kaggle/donorschoose-recommender/data:/data"
+      - "$DATADIR:/data"
+      - "$NOTEBOOKSDIR:/notebooks"

@@ -1,4 +1,4 @@
-FROM continuumio/anaconda3
+FROM continuumio/anaconda3:5.2.0
 MAINTAINER Frederik Durant <frederik.durant@pandora.be>
 
 RUN /opt/conda/bin/conda install jupyter -y --quiet && \
