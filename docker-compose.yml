@@ -10,5 +10,5 @@ services:
     ports:
       - "8888:8888"
     volumes:
-      - "/Users/frederik/work/donorschoose-recommender/notebooks:/notebooks"
-      - "/Users/frederik/work/donorschoose-recommender/data:/data"
+      - "/Users/frederik/work/kaggle/donorschoose-recommender/notebooks:/notebooks"
+      - "/Users/frederik/work/kaggle/donorschoose-recommender/data:/data"
