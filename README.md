@@ -49,11 +49,11 @@ Teachers.csv.gz
 ```
 ~/work/donorschoose-recommender/data$ cd ..
 ~/work/donorschoose-recommender$ cat > .env
-DATADIR=/<yourhomedir>/work/donorschoose-recommender/data
-NOTEBOOKSDIR=/<yourhomedir>/work/donorschoose-recommender/notebooks
+DATADIR=/&lt;yourhomedir&gt;/work/donorschoose-recommender/data
+NOTEBOOKSDIR=/&lt;yourhomedir&gt;/work/donorschoose-recommender/notebooks
 (Ctrl-D)
 ```
-where <yourhomedir> is replaced with the full path to your actual home directory.
+where &lt;yourhomedir&gt; is replaced with the full path to your actual home directory.
 
 ## Launch the notebook
 ```
