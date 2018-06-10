@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+
+  anaconda3:
+    build:
+      context: .
+      dockerfile: anaconda3/Dockerfile
+    container_name: donorschoose_anaconda3
+    ports:
+      - "8888:8888"
+    volumes:
+      - "/Users/frederik/work/donorschoose-recommender/notebooks:/notebooks"
+      - "/Users/frederik/work/donorschoose-recommender/data:/data"
