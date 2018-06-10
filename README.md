@@ -2,6 +2,10 @@
 
 Out-of-competition dabbling with DonorsChoose.org data from [Kaggle](https://www.kaggle.com/donorschoose)
 
+## Software prerequisites
+- Recent [Docker](https://docs.docker.com/install/) installation
+- [docker-compose](https://docs.docker.com/compose/) version 1.21.1 or higher
+
 ## Installation of this project
 ```
 $ cd
