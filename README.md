@@ -19,7 +19,7 @@ $ cd
 ~/work/donorschoose-recommender/data$
 ```
 
-Go to the DonorsChoose.org Kaggle page and download the data into this 'data' directory.
+Go to the DonorsChoose.org Kaggle page and download the [data](https://www.kaggle.com/donorschoose/io/data) into this 'data' directory.
 The result should look like this:
 ```
 ~/work/donorschoose-recommender$ ls -1 data
