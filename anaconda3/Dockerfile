@@ -5,6 +5,10 @@ RUN /opt/conda/bin/conda install jupyter -y --quiet && \
     mkdir /notebooks && \
     mkdir /data
 
+RUN apt-get install -y build-essential
+
+RUN pip install -U fasttext
+
 VOLUME ["/data","/notebooks"]
 
 EXPOSE 8888
